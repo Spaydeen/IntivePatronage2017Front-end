@@ -6,7 +6,9 @@ window.onload = function(){
 
   function count(){
     var clickCount = document.getElementById("clickCount");
-
+    if(clickCount.innerHTML == 0){
+      counter = 0;
+    }
     clickCount.innerHTML = ++counter;
   }
 }
