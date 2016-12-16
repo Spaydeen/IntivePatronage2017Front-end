@@ -1,4 +1,4 @@
-window.setInterval(resetCounter, 1500);
+window.setInterval(resetCounter, 30000);
 
 function resetCounter(counter){
   clickCount.innerHTML = 0;
